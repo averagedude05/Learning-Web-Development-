@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charcter Creation Screen</title>
+</head>
+<body>
+    <h1> This is the charcter creation page
+    </h1>
+    <img src="images/687037803_122275244504021279_1687599919096032347_n.jpg">
+    <br>
+    <label for="username"> UserName:</label>
+    <input type="text" id="username" placeholder="Enter username">
+    <button onclick="printInput()">Confirm</button>
+    <script>
+        function printInput()
+        {
+            console.log( document.getElementById("username").value);
+        }        
+    </script>
+</body>
+</html>
